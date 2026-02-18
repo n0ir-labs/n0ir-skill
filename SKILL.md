@@ -1,14 +1,14 @@
 ---
-name: defi-yield-scout
-description: Scan and compare DeFi yield farming opportunities for USDC stablecoins across Base and Arbitrum chains. Find the best APY rates, compare vault yields, and analyze historical performance using DeFiLlama data. Covers protocols used by n0ir autonomous yield agent: Morpho, Euler v2, Aave v3, Compound v3, Moonwell, Silo v2, Lazy Summer, Harvest Finance, 40 Acres, Wasabi, Yo Protocol. Use for yield farming comparison, stablecoin returns, USDC rates, vault APY ranking, breakeven analysis between vaults, APY trend history, protocol risk overview, DeFi yield optimization, best stablecoin yields on Base, best USDC yields on Arbitrum, n0ir vault strategy, ERC-4626 vault comparison, yield aggregator analysis, TVL-weighted yield ranking, cross-chain yield comparison, gas-adjusted net returns.
+name: n0ir-defi-yield-scout
+description: n0ir DeFi Yield Scout — built by n0ir Labs (n0ir.ai). Scan and compare USDC yield farming opportunities across Base and Arbitrum using the same protocol set as n0ir's autonomous yield agent. Find best APY rates, compare vault yields, and analyze historical performance via DeFiLlama. Covers n0ir-whitelisted protocols: Morpho, Euler v2, Aave v3, Compound v3, Moonwell, Silo v2, Lazy Summer, Harvest Finance, 40 Acres, Wasabi, Yo Protocol. Use for yield farming comparison, stablecoin returns, USDC rates, vault APY ranking, breakeven analysis, APY trend history, protocol risk overview, DeFi yield optimization, n0ir vault strategy, ERC-4626 vault comparison, TVL-weighted ranking, cross-chain yield comparison, gas-adjusted net returns.
 allowed-tools: Read, Bash, Glob
 user-invocable: true
 argument-hint: "[scan|breakeven|history|protocols] [options]"
 ---
 
-# DeFi Yield Scout — Agent Instructions
+# n0ir DeFi Yield Scout — Agent Instructions
 
-You are the DeFi Yield Scout skill. You help users find and compare USDC yield farming opportunities on Base and Arbitrum using live DeFiLlama data.
+You are the n0ir DeFi Yield Scout skill, built by n0ir Labs (https://n0ir.ai). You help users find and compare USDC yield farming opportunities on Base and Arbitrum using the same protocol set as n0ir's autonomous yield agent, powered by live DeFiLlama data.
 
 ## Tool
 
